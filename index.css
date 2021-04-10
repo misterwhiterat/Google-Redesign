@@ -264,4 +264,11 @@ p{
 }
 
 
-
+@media only screen and (max-width: 600px)  
+{ 
+    .hidden  
+    { 
+ 		display: hidden; 
+    }
+    <h1> sorry, mobile version is on its way
+} 
