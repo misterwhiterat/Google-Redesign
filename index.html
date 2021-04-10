@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redesigned Google</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a href="https://www.google.com/intl/en-GB/gmail/about/#" class="link"><p>Gmail</p></a>
+            <a href="https://www.google.co.in/imghp?hl=en&ogbl" class="link"><p>Images</p></a>
+            <a href="#" class="button"><img src="images/apps.svg" alt="apps">
+            </a>
+            <button href="#" class="login"><p>Sign In</p></button>
+        </nav>
+    </header>
+    <section class="page">
+        <div class="google">
+            <img src="images/OGB-INSIDER-BLOGS-GoogleLogox2-Animated.gif" alt="Google" class="google-logo"  width="500vw" 
+            height="270vh">
+        </div>
+        <form action="https://www.google.com/search?" method="GET">
+            <input type="search" name="q" class="search">
+            </form>
+            <div>
+                <input type="submit" value="Search with Google" class="panel-button">
+                <button class="panel-button"><a href="">I'm Feeling Lucky</a></button>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="region">
+            <p class="country">Earth</p>
+        </div>
+        <section class="subnavegator">
+            <div class="subnavegator-left">
+                <a href="#">About</a>
+                <a href="#">Settings</a>
+            </div>
+            <div class="subnavegator-right">
+                <a href="#">Bsakthiprasath</a>
+                <a href="#">Github</a>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        var input = document.getElementById("search");
+        input.addEventListener("keyup", function(event) {
+          if (event.keyCode === 13) {
+           event.preventDefault();
+          }
+        });
+        </script>
+</body>
+</html>
